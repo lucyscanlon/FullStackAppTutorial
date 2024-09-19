@@ -1,1 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #232323;
+}
+
+.post {
+  background-color: white;
+  border-radius: 20px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.wholeListOfPosts {
+  padding-top: 50px;
+}
+
+.apptitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  color: white;
+}
+
+.title {
+  width: 100%;
+  height: 80px;
+  background-color: #79A453;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+
+}
+
+.title h2 {
+  padding-top: 25px;
+}
+
+.body {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #79A453;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 18px;
+}
