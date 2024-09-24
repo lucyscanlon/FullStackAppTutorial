@@ -13,6 +13,15 @@ body {
   width: 75%;
   margin: 0 auto;
   margin-bottom: 50px;
+  transition-duration: 0.2s;
+}
+
+.post:hover {
+  -webkit-box-shadow: 10px 10px 13px -7px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 10px 10px 13px -7px rgba(255, 255, 255, 1);
+  box-shadow: 10px 10px 13px -7px rgba(255, 255, 255, 1);
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .wholeListOfPosts {
@@ -64,3 +73,116 @@ body {
   text-align: center;
   padding-top: 18px;
 }
+
+
+
+input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #79A453;
+}
+
+label {
+  color: #79A453;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #79A453;
+  color: white;
+  border: none;
+  font-size: 19px;
+}
+
+span {
+  color: #D53434;
+  padding-left: 5px;
+}
+
+.navigation-bar  {
+  width: 100%;
+  height: 60px;
+  background-color: #79A453;
+}
+
+.navigation-bar li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition-duration: 0.3s;
+}
+
+.navigation-bar ul {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+}
+
+.navigation-bar li:hover {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.create-post-container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.create-post-container h2 {
+  text-align: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 30px;
+}
+
+.singlepost-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  overflow: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.singlepost-title-container {
+  padding-top: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.singlepost-post-container {
+  padding-top: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+
+.singlepost-username-container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
